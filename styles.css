@@ -1,0 +1,121 @@
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+img {
+    position: absolute;
+}
+
+button {
+    padding: 0;
+    margin: 5.5px;
+    width: 46px;
+    height: 39px;
+    border: 0.5px solid;
+    border-radius: 45px;
+    border-color: #8DD3FF;
+    font-family: abel, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #86ACC3;
+    width: max-content;
+    margin: auto;
+    border-radius: 16px;
+    padding-bottom: 11px;
+}
+
+.display {
+    width: 213px;
+    background-color: #C5E5C0;
+    height: 42px;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 16px;
+    margin: 11px;
+    margin-top: 65px;
+    z-index: 1;
+    font-family: tektur, sans-serif;
+    font-size: 26px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-row-1 {
+    display: flex;
+}
+
+.btn-rows {
+    display: flex;
+}
+
+.btn-numbers-1 {
+    display: flex;
+}
+
+.btn-numbers-2 {
+    display: flex;
+}
+
+.btn-numbers-3 {
+    display: flex;
+}
+
+.btn-center {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-bottom {
+    display: flex;
+}
+
+#btn-zero {
+    flex-grow: 2;
+}
+
+#btn-plus {
+    flex-grow: 2;
+}
+
+.btn-equals {
+    flex-grow: 2;
+}
+
+.btn-red {
+    background-color: #F5A9A9;
+}
+
+.btn-blue {
+    background-color: #78C0D2;
+}
