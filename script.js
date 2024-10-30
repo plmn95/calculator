@@ -8,15 +8,12 @@ let numInput = 0
 let operator = ''
 
 const operate = (n1, n2) => {
-    if(operator = "X") {
-        operator = "*"
-    }
     switch(operator) {
         case '+':
             return add(n1, n2)
         case '-':
             return subtract(n1, n2)
-        case '*':
+        case 'X':
             return multiply(n1, n2)
         case '/':
             return divide(n1, n2)
@@ -82,7 +79,6 @@ btnEquals.addEventListener('click', () => {
 const btnClear = document.querySelector('.btn-clear')
 
 btnClear.addEventListener('click', () => {
-    console.log('works')
     numMemory = 0
     numInput = 0
     operator = ''
