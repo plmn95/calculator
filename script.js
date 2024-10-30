@@ -8,6 +8,9 @@ let numInput = 0
 let operator = ''
 
 const operate = (n1, n2) => {
+    if(operator = "X") {
+        operator = "*"
+    }
     switch(operator) {
         case '+':
             return add(n1, n2)
